@@ -1,0 +1,22 @@
+.git
+.venv
+backend/.env
+backend/__pycache__
+backend/.pytest_cache
+frontend
+notebooks
+reports
+docs
+Real data/raw
+Real data/processed/ocean/csv/*
+Real data/processed/sea_ice/csv/*
+Real data/processed/weather/csv/*
+Real data/processed/iceberg/csv/*
+Real data/processed/bathymetry/*
+Real data/processed/vessel/csv/*
+!Real data/processed/sea_ice/csv/sea_ice_latest_part_202312.csv
+!Real data/processed/ocean/csv/ocean_part_202201.csv
+!Real data/processed/weather/csv/weather_part_202201.csv
+!Real data/processed/iceberg/csv/iceberg_processed.csv
+!Real data/processed/bathymetry/land_ocean_mask.json
+!Real data/processed/vessel/csv/vessel_processed.csv

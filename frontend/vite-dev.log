@@ -1,0 +1,24 @@
+
+> antarctic-navigation-dss-frontend@0.1.0 dev
+> vite
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m432[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m8:03:20 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/map/AntarcticMap.tsx, /src/index.css[22m
+[2m8:03:41 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/map/AntarcticMap.tsx, /src/index.css[22m
+[2m8:04:07 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/map/AntarcticMap.tsx, /src/index.css[22m
+[2m9:34:05 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/types/index.ts[22m
+[2m9:34:15 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css, /src/pages/Analytics.tsx, /src/pages/Overview.tsx, /src/pages/IcebergTracking.tsx, /src/components/layout/Header.tsx, /src/pages/Assistant.tsx, /src/pages/NavigationPlanner.tsx, /src/pages/SeaIceForecast.tsx[22m
+[2m9:34:16 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css, /src/pages/Analytics.tsx, /src/pages/Overview.tsx, /src/pages/IcebergTracking.tsx, /src/components/layout/Header.tsx, /src/pages/Assistant.tsx, /src/pages/NavigationPlanner.tsx, /src/pages/SeaIceForecast.tsx[22m
+[2m9:34:21 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css, /src/pages/Analytics.tsx, /src/pages/Overview.tsx, /src/pages/IcebergTracking.tsx, /src/components/layout/Header.tsx, /src/pages/Assistant.tsx, /src/pages/NavigationPlanner.tsx, /src/pages/SeaIceForecast.tsx[22m
+[2m9:35:32 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Assistant.tsx, /src/index.css[22m
+[2m11:41:50 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/types/index.ts[22m
+[2m11:41:54 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css, /src/pages/Analytics.tsx, /src/pages/Overview.tsx, /src/pages/IcebergTracking.tsx, /src/components/layout/Header.tsx, /src/pages/NavigationPlanner.tsx, /src/pages/SeaIceForecast.tsx, /src/components/AIAssistant.tsx[22m
+[2m11:41:59 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css, /src/pages/Analytics.tsx, /src/pages/Overview.tsx, /src/pages/IcebergTracking.tsx, /src/components/layout/Header.tsx, /src/pages/NavigationPlanner.tsx, /src/pages/SeaIceForecast.tsx, /src/components/AIAssistant.tsx[22m
+[2m11:42:05 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Analytics.tsx, /src/index.css[22m
+[2m11:42:15 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Analytics.tsx, /src/index.css[22m
+[2m11:42:23 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Analytics.tsx, /src/index.css[22m

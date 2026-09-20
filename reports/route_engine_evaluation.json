@@ -1,0 +1,455 @@
+{
+  "route": {
+    "status": "VERIFIED",
+    "classification": "pipeline_data",
+    "distance_km": 3792.68,
+    "distance_nm": 2047.89,
+    "travel_time_hours": 170.66,
+    "fuel_tons": 199.1,
+    "waypoints": 80,
+    "risk_score": 0.1217,
+    "risk_level": "moderate",
+    "generation_time_s": 14.939542500000243,
+    "starts_at_departure": true,
+    "ends_at_destination": true,
+    "warnings": [
+      "Iceberg predictions use trained model 'random_forest' on real observations.",
+      "Weather severity derived from the newest real wind field.",
+      "Land mask loaded (json): 23967 cells marked land.",
+      "Iceberg tracking hazard within 60 km at (-66.00, 110.00) (43.9 km).",
+      "Iceberg tracking hazard within 60 km at (-66.00, 110.50) (48.5 km).",
+      "Iceberg tracking hazard within 60 km at (-66.50, 110.50) (23.6 km)."
+    ],
+    "alternatives": 2
+  },
+  "two_hour": {
+    "target_percent": 10.0,
+    "dataset_time_interval_hours": 168.0,
+    "number_of_iceberg_tracks": 65,
+    "number_of_2h_prediction_pairs": 0,
+    "number_of_valid_2h_evaluations": 0,
+    "missing_or_invalid_records": 44,
+    "duplicate_records": 44,
+    "records_before_cleaning": 2963,
+    "prediction_horizon_hours": 2.0,
+    "error_tolerance_km": 20.0,
+    "predictions": [],
+    "status": "INSUFFICIENT_DATA",
+    "message": "Insufficient 2-hour ground-truth data",
+    "accuracy_percent": null,
+    "average_distance_error_km": null,
+    "average_distance_error_nm": null
+  },
+  "land_mask": {
+    "target_percent": 5.0,
+    "status": "VERIFIED",
+    "message": null,
+    "total_predicted_points": 65,
+    "ocean_points": 48,
+    "land_points": 17,
+    "invalid_coordinates": 0,
+    "coastline_tolerance_km": 5.0,
+    "accuracy_percent": 73.8462,
+    "predictions": [
+      {
+        "latitude": -62.0186,
+        "longitude": -52.1153,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -60.53,
+        "longitude": -49.56,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -60.7411,
+        "longitude": -49.9311,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -59.1862,
+        "longitude": -52.992,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -59.7825,
+        "longitude": -50.6531,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -61.68,
+        "longitude": -52.34,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -72.1057,
+        "longitude": -54.111,
+        "on_land": true,
+        "valid_ocean": false
+      },
+      {
+        "latitude": -67.4751,
+        "longitude": -55.2025,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -55.5116,
+        "longitude": -34.117,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -65.1311,
+        "longitude": -56.4071,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -65.2106,
+        "longitude": -57.3468,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -55.14,
+        "longitude": -34.34,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -55.64,
+        "longitude": -34.82,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -55.81,
+        "longitude": -34.1,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -72.3396,
+        "longitude": -55.549,
+        "on_land": true,
+        "valid_ocean": false
+      },
+      {
+        "latitude": -60.4606,
+        "longitude": -31.2999,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -71.09,
+        "longitude": -60.4901,
+        "on_land": true,
+        "valid_ocean": false
+      },
+      {
+        "latitude": -65.2937,
+        "longitude": -57.0455,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -64.9256,
+        "longitude": -56.0057,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -66.17,
+        "longitude": 143.43,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -68.19,
+        "longitude": 41.71,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -56.1781,
+        "longitude": -22.7708,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -72.19,
+        "longitude": -15.9,
+        "on_land": true,
+        "valid_ocean": false
+      },
+      {
+        "latitude": -71.4151,
+        "longitude": -115.2496,
+        "on_land": true,
+        "valid_ocean": false
+      },
+      {
+        "latitude": -74.0498,
+        "longitude": -110.1031,
+        "on_land": true,
+        "valid_ocean": false
+      },
+      {
+        "latitude": -73.74,
+        "longitude": -110.5,
+        "on_land": true,
+        "valid_ocean": false
+      },
+      {
+        "latitude": -70.7403,
+        "longitude": -56.3897,
+        "on_land": true,
+        "valid_ocean": false
+      },
+      {
+        "latitude": -65.25,
+        "longitude": 128.2925,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -62.7959,
+        "longitude": -138.0442,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -72.1727,
+        "longitude": -114.33,
+        "on_land": true,
+        "valid_ocean": false
+      },
+      {
+        "latitude": -63.6838,
+        "longitude": -140.744,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -73.864,
+        "longitude": -133.6638,
+        "on_land": true,
+        "valid_ocean": false
+      },
+      {
+        "latitude": -57.9108,
+        "longitude": -149.0527,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -65.93,
+        "longitude": 143.18,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -65.6993,
+        "longitude": 81.1306,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -64.84,
+        "longitude": 96.02,
+        "on_land": true,
+        "valid_ocean": false
+      },
+      {
+        "latitude": -66.06,
+        "longitude": 142.75,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -64.78,
+        "longitude": 96.29,
+        "on_land": true,
+        "valid_ocean": false
+      },
+      {
+        "latitude": -64.68,
+        "longitude": 96.5,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -65.7212,
+        "longitude": 122.222,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -66.27,
+        "longitude": 142.99,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -67.91,
+        "longitude": 147.46,
+        "on_land": true,
+        "valid_ocean": false
+      },
+      {
+        "latitude": -64.5004,
+        "longitude": 100.2041,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -65.2248,
+        "longitude": 101.1577,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -64.8579,
+        "longitude": 98.5867,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -64.6498,
+        "longitude": 98.301,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -66.3941,
+        "longitude": 110.0386,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -62.2352,
+        "longitude": -47.0785,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -69.43,
+        "longitude": 74.7,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -69.19,
+        "longitude": 29.44,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -71.4732,
+        "longitude": -47.8125,
+        "on_land": true,
+        "valid_ocean": false
+      },
+      {
+        "latitude": -55.8817,
+        "longitude": -34.9644,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -60.5007,
+        "longitude": -20.3765,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -57.4033,
+        "longitude": -40.6143,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -59.3954,
+        "longitude": -35.0247,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -55.8712,
+        "longitude": -40.5765,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -60.8726,
+        "longitude": -44.982,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -60.3981,
+        "longitude": -34.8586,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -65.3344,
+        "longitude": 53.6833,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -69.5856,
+        "longitude": -1.897,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -69.6896,
+        "longitude": 6.8987,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -55.7823,
+        "longitude": -34.6514,
+        "on_land": false,
+        "valid_ocean": true
+      },
+      {
+        "latitude": -71.582,
+        "longitude": -60.8131,
+        "on_land": true,
+        "valid_ocean": false
+      },
+      {
+        "latitude": -71.762,
+        "longitude": -61.0477,
+        "on_land": true,
+        "valid_ocean": false
+      },
+      {
+        "latitude": -73.092,
+        "longitude": -72.9048,
+        "on_land": true,
+        "valid_ocean": false
+      }
+    ],
+    "info": {
+      "loaded": true,
+      "file": "C:\\my project\\final\\SIH HACK\\Real data\\processed\\bathymetry\\land_ocean_mask.json",
+      "format": "json",
+      "land_cells": 23967,
+      "land_fraction": 0.5449398603942611
+    },
+    "land_cells": 23967,
+    "land_fraction": 0.5449398603942611
+  }
+}

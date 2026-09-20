@@ -1,0 +1,34 @@
+{
+  "sea_ice": {
+    "deployed_model_is_baseline": true,
+    "test": {
+      "n": 1013895,
+      "mae": 0.0360397279077222,
+      "rmse": 0.10875058835390966,
+      "mse": 0.011826690467321512,
+      "r2": 0.8981420820786747,
+      "explained_variance": 0.8983282870319445,
+      "mean_bias": -0.004649752458587921,
+      "correlation": 0.9497821807621565,
+      "mean_actual": 0.17423534461951187,
+      "mean_pred": 0.1788850970780998
+    },
+    "zero_baseline": {
+      "n": 1014360,
+      "mae": 0.17446158565499428,
+      "rmse": 0.382985780911003,
+      "mse": 0.1466781083800108,
+      "r2": -0.26184199956187304,
+      "explained_variance": 0.0,
+      "mean_bias": 0.17446158565499428,
+      "correlation": NaN,
+      "mean_actual": 0.17446158565499428,
+      "mean_pred": 0.0
+    }
+  },
+  "iceberg": {
+    "deployed_model_is_baseline": false,
+    "test_pairs": 415,
+    "haversine_mean_km": 16.41620777335219
+  }
+}

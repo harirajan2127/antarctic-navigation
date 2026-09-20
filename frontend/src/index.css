@@ -1,0 +1,236 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.leaflet-container {
+  background: #eef2f7;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+.map-control-button,
+.map-copy-coordinate {
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.96);
+  color: #0b3d6e;
+  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.2);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 6px 9px;
+  transition: background 120ms ease, color 120ms ease;
+}
+.map-control-button:hover,
+.map-copy-coordinate:hover,
+.map-control-button-active {
+  background: #0b3d6e;
+  color: #ffffff;
+}
+.map-refresh-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 27px;
+  height: 27px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #0b3d6e;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.14);
+}
+.map-refresh-button:hover {
+  background: #eff6ff;
+}
+.map-refresh-button svg {
+  width: 15px;
+  height: 15px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+.map-coordinate-crosshair {
+  position: absolute;
+  z-index: 1001;
+  width: 16px;
+  height: 16px;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.map-coordinate-crosshair::before,
+.map-coordinate-crosshair::after {
+  content: "";
+  position: absolute;
+  background: #0b3d6e;
+  box-shadow: 0 0 0 1px #ffffff;
+}
+.map-coordinate-crosshair::before {
+  left: 7px;
+  top: 0;
+  width: 2px;
+  height: 16px;
+}
+.map-coordinate-crosshair::after {
+  left: 0;
+  top: 7px;
+  width: 16px;
+  height: 2px;
+}
+.map-coordinate-panel {
+  position: absolute;
+  right: 12px;
+  top: 48px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 225px;
+  padding: 8px 9px 8px 11px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.2);
+  color: #0b2e4f;
+  pointer-events: auto;
+}
+.map-coordinate-values {
+  display: grid;
+  gap: 2px;
+  flex: 1;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+.map-copy-coordinate {
+  flex: none;
+  padding: 5px 7px;
+  font-size: 10px;
+}
+@media (max-width: 640px) {
+  .map-coordinate-panel {
+    right: 8px;
+    top: 48px;
+    min-width: 0;
+  }
+}
+
+/* Vessel marker — pulsing ring around a solid navy core */
+.vessel-marker {
+  position: relative;
+  width: 22px;
+  height: 22px;
+}
+.vessel-marker::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: rgba(11, 61, 110, 0.35);
+  animation: vessel-pulse 2s ease-out infinite;
+}
+.vessel-core {
+  position: absolute;
+  inset: 6px;
+  border-radius: 9999px;
+  background: #0b3d6e;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 0 2px rgba(11, 61, 110, 0.9);
+}
+@keyframes vessel-pulse {
+  0% {
+    transform: scale(0.45);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1.7);
+    opacity: 0;
+  }
+}
+
+/* Labelled start / destination markers */
+.map-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 2px 8px;
+  box-shadow: 0 1px 2px rgba(2, 6, 23, 0.12);
+  font-size: 11px;
+  font-weight: 600;
+  color: #0b2e4f;
+  white-space: nowrap;
+}
+.map-label-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 9999px;
+  border: 2px solid #ffffff;
+  flex: none;
+}
+.map-label span:last-child {
+  border-radius: 6px;
+}
+
+.leaflet-div-icon {
+  background: transparent;
+  border: none;
+}
+
+.route-label {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 10px;
+  text-shadow: 0 0 3px #fff, 0 0 3px #fff;
+}
+
+.leaflet-popup-content {
+  margin: 10px 12px;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.25s ease-out;
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

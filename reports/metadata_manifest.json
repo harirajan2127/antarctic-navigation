@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-09-14T11:59:47Z",
+  "metadata_files": [
+    "sea_ice\\metadata\\sea_ice_processed_metadata.json",
+    "iceberg\\metadata\\iceberg_processed_metadata.json",
+    "ocean\\metadata\\ocean_processed_metadata.json",
+    "weather\\metadata\\weather_processed_metadata.json",
+    "vessel\\metadata\\vessel_processed_metadata.json",
+    "bathymetry\\metadata\\bathymetry_processed_metadata.json"
+  ]
+}

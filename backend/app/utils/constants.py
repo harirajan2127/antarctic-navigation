@@ -1,0 +1,28 @@
+"""Application constants."""
+from __future__ import annotations
+
+ANTARCTIC_LAT_MIN = -90.0
+ANTARCTIC_LAT_MAX = -50.0
+ANTARCTIC_LON_MIN = -180.0
+ANTARCTIC_LON_MAX = 180.0
+
+MAX_SEA_ICE_CONCENTRATION = 1.0
+SAFE_SEA_ICE_THRESHOLD = 0.6
+ICEBERG_EXCLUSION_RADIUS_KM = 20.0
+ICE_EDGE_BUFFER_KM = 30.0
+
+KNOTS_TO_KM_PER_HOUR = 1.852
+KM_TO_NM = 0.539957
+NM_TO_KM = 1.852
+
+FUEL_DENSITY_TONS_PER_CUBIC_METER = 0.85
+
+DEFAULT_UPDATE_INTERVAL_HOURS = 2
+DEFAULT_CROSSING_SPEED_KNOTS = 12.0
+
+RISK_WEIGHTS_DEFAULTS = {
+    "sea_ice_concentration": 0.35,
+    "iceberg_proximity": 0.30,
+    "weather_severity": 0.20,
+    "distance_penalty": 0.15,
+}

@@ -1,0 +1,64 @@
+{
+  "ports": [
+    {
+      "port_id": "hobart_au",
+      "name": "Hobart",
+      "country": "Australia",
+      "latitude": -42.8826,
+      "longitude": 147.3257,
+      "description": "Major Antarctic departure port in Tasmania, Australia. Home to the Australian Antarctic Division.",
+      "facilities": ["fuel", "provisions", "ice_breaker_support", "scientific_equipment"],
+      "timezone": "Australia/Hobart"
+    },
+    {
+      "port_id": "christchurch_nz",
+      "name": "Christchurch",
+      "country": "New Zealand",
+      "latitude": -43.5321,
+      "longitude": 172.6362,
+      "description": "Gateway to Antarctica via Lyttelton Port. Closest major port to the Ross Sea sector.",
+      "facilities": ["fuel", "provisions", "cargo_handling"],
+      "timezone": "Pacific/Auckland"
+    },
+    {
+      "port_id": "bluff_nz",
+      "name": "Bluff",
+      "country": "New Zealand",
+      "latitude": -46.6000,
+      "longitude": 168.3500,
+      "description": "Southernmost port in New Zealand. Used for Antarctic resupply operations.",
+      "facilities": ["fuel", "provisions", "cargo_handling"],
+      "timezone": "Pacific/Auckland"
+    },
+    {
+      "port_id": "cape_town_za",
+      "name": "Cape Town",
+      "country": "South Africa",
+      "latitude": -33.9249,
+      "longitude": 18.4241,
+      "description": "Primary departure port for the Indian Ocean sector of Antarctica. Home to SANAP program.",
+      "facilities": ["fuel", "provisions", "ice_breaker_support", "scientific_equipment", "dry_dock"],
+      "timezone": "Africa/Johannesburg"
+    },
+    {
+      "port_id": "ushuaia_ar",
+      "name": "Ushuaia",
+      "country": "Argentina",
+      "latitude": -54.8019,
+      "longitude": -68.3030,
+      "description": "Most popular departure port for Antarctic expeditions. Gateway to the Antarctic Peninsula.",
+      "facilities": ["fuel", "provisions", "cargo_handling"],
+      "timezone": "America/Argentina/Ushuaia"
+    },
+    {
+      "port_id": "punta_arenas_cl",
+      "name": "Punta Arenas",
+      "country": "Chile",
+      "latitude": -53.1638,
+      "longitude": -70.9171,
+      "description": "Chilean port used for Antarctic operations. Gateway to the Antarctic Peninsula sector.",
+      "facilities": ["fuel", "provisions", "ice_breaker_support", "cargo_handling"],
+      "timezone": "America/Santiago"
+    }
+  ]
+}

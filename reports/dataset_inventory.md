@@ -1,0 +1,233 @@
+# Dataset Inventory
+
+_Generated 2026-09-14T11:59:47Z_
+
+## Detected files
+
+
+### sea_ice (1065 files)
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230202.nc` [netcdf] 155480212B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230203.nc` [netcdf] 156103611B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230204.nc` [netcdf] 156023955B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230205.nc` [netcdf] 156220864B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230206.nc` [netcdf] 155367145B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230207.nc` [netcdf] 155730269B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230208.nc` [netcdf] 155698904B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230209.nc` [netcdf] 155983636B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230210.nc` [netcdf] 155724811B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230211.nc` [netcdf] 155748245B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230212.nc` [netcdf] 156158477B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230213.nc` [netcdf] 155800740B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230214.nc` [netcdf] 155685727B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230215.nc` [netcdf] 155556354B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230216.nc` [netcdf] 156037986B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230217.nc` [netcdf] 156027574B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230218.nc` [netcdf] 156044321B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230219.nc` [netcdf] 155731118B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230220.nc` [netcdf] 156335140B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230221.nc` [netcdf] 155449643B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230222.nc` [netcdf] 155519609B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230223.nc` [netcdf] 155757913B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230224.nc` [netcdf] 156292769B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230225.nc` [netcdf] 155793951B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230226.nc` [netcdf] 155720176B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230227.nc` [netcdf] 156099750B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\dmi_asip_seaice_mosaic_ant_20230228.nc` [netcdf] 155277562B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\02\inspect_netcdf.mjs` [unsupported] 2867B
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230301.nc` [netcdf] 156126302B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230302.nc` [netcdf] 156103832B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230303.nc` [netcdf] 155773020B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230304.nc` [netcdf] 156330611B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230305.nc` [netcdf] 156045654B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230306.nc` [netcdf] 155684568B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230307.nc` [netcdf] 155809840B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230308.nc` [netcdf] 156143584B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230309.nc` [netcdf] 155821274B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230313.nc` [netcdf] 155982654B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230314.nc` [netcdf] 156245583B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230315.nc` [netcdf] 155771870B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230316.nc` [netcdf] 156146132B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230317.nc` [netcdf] 156111775B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230318.nc` [netcdf] 155734990B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230319.nc` [netcdf] 155772243B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230320.nc` [netcdf] 156141127B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230321.nc` [netcdf] 155839058B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230322.nc` [netcdf] 155838228B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230323.nc` [netcdf] 156128120B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230324.nc` [netcdf] 156207548B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230325.nc` [netcdf] 156169998B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230326.nc` [netcdf] 156172322B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230327.nc` [netcdf] 155679168B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230328.nc` [netcdf] 156301425B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230329.nc` [netcdf] 155365715B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230330.nc` [netcdf] 155380565B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\03\dmi_asip_seaice_mosaic_ant_20230331.nc` [netcdf] 155866115B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230401.nc` [netcdf] 156420725B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230402.nc` [netcdf] 155774568B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230403.nc` [netcdf] 155913630B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230404.nc` [netcdf] 156065477B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230405.nc` [netcdf] 156223662B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230406.nc` [netcdf] 156139638B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230407.nc` [netcdf] 156180587B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230408.nc` [netcdf] 155879831B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230409.nc` [netcdf] 156298791B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230410.nc` [netcdf] 156137229B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230411.nc` [netcdf] 155720817B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230412.nc` [netcdf] 155732603B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230413.nc` [netcdf] 156328934B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230414.nc` [netcdf] 155773897B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230415.nc` [netcdf] 155563125B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230416.nc` [netcdf] 156033815B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230417.nc` [netcdf] 156106476B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230418.nc` [netcdf] 156152006B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230419.nc` [netcdf] 156214572B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230420.nc` [netcdf] 155844826B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230421.nc` [netcdf] 156327165B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230422.nc` [netcdf] 156027572B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230423.nc` [netcdf] 155744083B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230424.nc` [netcdf] 155848206B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230425.nc` [netcdf] 156180009B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230426.nc` [netcdf] 155556470B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230427.nc` [netcdf] 155726407B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230428.nc` [netcdf] 155737349B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230429.nc` [netcdf] 156108231B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\04\dmi_asip_seaice_mosaic_ant_20230430.nc` [netcdf] 156275736B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230501.nc` [netcdf] 156241754B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230502.nc` [netcdf] 155847086B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230503.nc` [netcdf] 155598177B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230504.nc` [netcdf] 156093378B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230505.nc` [netcdf] 155747024B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230506.nc` [netcdf] 155744218B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230507.nc` [netcdf] 156089070B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230508.nc` [netcdf] 155709576B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230509.nc` [netcdf] 155445466B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230510.nc` [netcdf] 155451281B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230511.nc` [netcdf] 155380704B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230512.nc` [netcdf] 155834302B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230513.nc` [netcdf] 155588428B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230514.nc` [netcdf] 155698701B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230515.nc` [netcdf] 155910577B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230516.nc` [netcdf] 155202356B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230517.nc` [netcdf] 155627118B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230518.nc` [netcdf] 155332141B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230519.nc` [netcdf] 155403995B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230520.nc` [netcdf] 155350524B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230521.nc` [netcdf] 155511475B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230522.nc` [netcdf] 155400524B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230523.nc` [netcdf] 155501949B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230524.nc` [netcdf] 155873483B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230525.nc` [netcdf] 155474983B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230526.nc` [netcdf] 155818481B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230527.nc` [netcdf] 155918262B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230528.nc` [netcdf] 155400783B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230529.nc` [netcdf] 155651633B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230530.nc` [netcdf] 155385860B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\05\dmi_asip_seaice_mosaic_ant_20230531.nc` [netcdf] 155329240B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\06\dmi_asip_seaice_mosaic_ant_20230601.nc` [netcdf] 155414626B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\06\dmi_asip_seaice_mosaic_ant_20230602.nc` [netcdf] 155484480B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- `sea_ice\2023\06\dmi_asip_seaice_mosaic_ant_20230603.nc` [netcdf] 155618030B, vars=time, crs, x, y, lat, lon, ice_concentration, confidence, acq_time
+- … and 945 more
+
+### iceberg (70 files)
+- `iceberg\AntarcticIcebergs_20220107.csv` [csv] 2162B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220114.csv` [csv] 2211B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220121.csv` [csv] 2210B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220128.csv` [csv] 2248B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220204.csv` [csv] 2198B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220211.csv` [csv] 2238B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220218.csv` [csv] 2238B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220325.csv` [csv] 2377B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220401.csv` [csv] 2285B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220408.csv` [csv] 2285B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220415.csv` [csv] 2339B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220422.csv` [csv] 2339B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220429.csv` [csv] 2367B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220506.csv` [csv] 2312B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220610.csv` [csv] 2366B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220617.csv` [csv] 2367B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220624.csv` [csv] 2365B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220701.csv` [csv] 2272B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220708.csv` [csv] 2272B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220715.csv` [csv] 2325B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220722.csv` [csv] 2325B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220819.csv` [csv] 2324B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220826.csv` [csv] 2324B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220902.csv` [csv] 2272B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220909.csv` [csv] 2272B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220916 (1).csv` [csv] 2283B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220916.csv` [csv] 2283B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20220923.csv` [csv] 2203B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20221028.csv` [csv] 2284B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20221104.csv` [csv] 2234B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20221111.csv` [csv] 2284B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20221118.csv` [csv] 2285B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20221125.csv` [csv] 2285B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20221202.csv` [csv] 2453B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20221209.csv` [csv] 2325B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230113.csv` [csv] 2217B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230120.csv` [csv] 2217B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230127.csv` [csv] 2257B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230203.csv` [csv] 2248B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230210.csv` [csv] 2258B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230217.csv` [csv] 2219B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230224.csv` [csv] 2182B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230331.csv` [csv] 1835B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230407.csv` [csv] 1811B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230414.csv` [csv] 1851B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230421.csv` [csv] 1851B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230428.csv` [csv] 1885B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230505.csv` [csv] 1871B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230512.csv` [csv] 2140B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230615.csv` [csv] 2636B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230623.csv` [csv] 2123B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230624.csv` [csv] 2641B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230630.csv` [csv] 2490B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230707.csv` [csv] 2497B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230714.csv` [csv] 2493B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230721.csv` [csv] 2493B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230818.csv` [csv] 2455B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230825.csv` [csv] 2419B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230901.csv` [csv] 2421B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230908.csv` [csv] 2499B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230915.csv` [csv] 2493B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230922.csv` [csv] 2496B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20230930.csv` [csv] 2497B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20231103.csv` [csv] 2248B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20231109.csv` [csv] 2252B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20231117.csv` [csv] 2256B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20231124.csv` [csv] 2218B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20231208.csv` [csv] 2208B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20231215.csv` [csv] 2268B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+- `iceberg\AntarcticIcebergs_20231221.csv` [csv] 2267B, cols=Iceberg, Length (NM), Width (NM), Latitude, Longitude, Remarks, Last Update
+
+### ocean (8 files)
+- `ocean\ocean data 2022\data from 1-3.nc` [netcdf] 650195214B, vars=time, latitude, longitude, siconc, depth, so, thetao, uo, vo
+- `ocean\ocean data 2022\data from 10-12.nc` [netcdf] 664643230B, vars=time, latitude, longitude, siconc, depth, so, thetao, uo, vo
+- `ocean\ocean data 2022\data from 4-6.nc` [netcdf] 657419222B, vars=time, latitude, longitude, siconc, depth, so, thetao, uo, vo
+- `ocean\ocean data 2022\data from 7-9.nc` [netcdf] 664643230B, vars=time, latitude, longitude, siconc, depth, so, thetao, uo, vo
+- `ocean\ocean data 2023\data from 1-3.nc` [netcdf] 650195214B, vars=time, latitude, longitude, siconc, depth, so, thetao, uo, vo
+- `ocean\ocean data 2023\data from 10-12.nc` [netcdf] 664643230B, vars=time, latitude, longitude, siconc, depth, so, thetao, uo, vo
+- `ocean\ocean data 2023\data from 4-6.nc` [netcdf] 657419222B, vars=time, latitude, longitude, siconc, depth, so, thetao, uo, vo
+- `ocean\ocean data 2023\data from 7-9.nc` [netcdf] 664643230B, vars=time, latitude, longitude, siconc, depth, so, thetao, uo, vo
+
+### weather (7 files)
+- `weather\497d948efe6898118e09efff6df8cc45(1).grib` [grib] 28439480160B, 1440x161
+- `weather\497d948efe6898118e09efff6df8cc45(1).grib.52121.idx` [idx] 5628779B
+- `weather\497d948efe6898118e09efff6df8cc45(1).grib.5b7b6.idx` [idx] 0B
+- `weather\497d948efe6898118e09efff6df8cc45(1).grib.da267.idx` [idx] 5628747B
+- `weather\f7edf947f16215e86c67db68b838b452.grib` [grib] 28439480160B, 1440x161
+- `weather\f7edf947f16215e86c67db68b838b452.grib.5b7b6.idx` [idx] 5506087B
+- `weather\f7edf947f16215e86c67db68b838b452.grib.da267.idx` [idx] 5628744B
+
+### vessel (8 files)
+- `vessel\ais-transit-count-2020.tif` [geotiff] 525442534B
+- `vessel\ais-transit-count-2021.tif` [geotiff] 298301941B
+- `vessel\ais-transit-count-2022.tif` [geotiff] 432111004B
+- `vessel\ais-transit-count-2023.tif` [geotiff] 446366823B
+- `vessel\ais-transit-count-2024.tif` [geotiff] 465949438B
+- `vessel\ais-transit-count-2025.tif` [geotiff] 560417801B
+- `vessel\gfgfw_raw\fleet-monthly-csvs-10-v3-2022.zip` [zip] 127746383B, entries=12
+- `vessel\gfgfw_raw\fleet-monthly-csvs-10-v3-2023.zip` [zip] 138966163B, entries=12
+
+### bathymetry (1 files)
+- `bathymetry\ETOPO2022_60s_Antarctic_20_120.nc` [netcdf] 79317748B, vars=latitude, longitude, z

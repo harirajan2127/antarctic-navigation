@@ -1,0 +1,25 @@
+{
+  "status": "VERIFIED",
+  "model": "random_forest",
+  "trained_on_real": true,
+  "dataset": "iceberg_processed.csv",
+  "n_test_pairs": 415,
+  "n_test_icebergs": 61,
+  "latitude_mae": 0.05112435288941298,
+  "longitude_mae": 0.26279664106041234,
+  "haversine_mean_km": 16.41620777335219,
+  "haversine_median_km": 0.908683707890861,
+  "haversine_max_km": 1831.3070831364914,
+  "position_rmse_km": 130.61295058156318,
+  "within_km": {},
+  "horizon_buckets": {},
+  "baseline_mean_km": 62.63973304860188,
+  "model_beats_baseline": true,
+  "note": "Random forest trained on cleaned real iceberg observations with a chronological hold-out. No future observations were used as features.",
+  "horizons_available": [],
+  "horizons_required_but_unavailable": [
+    "2h",
+    "6h",
+    "12h"
+  ]
+}

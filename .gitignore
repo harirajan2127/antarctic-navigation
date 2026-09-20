@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+dist/
+build/
+
+# Environment / secrets
+.env
+.env.local
+
+# Data - never commit large or licensed datasets
+*.nc
+*.nc4
+Real data/processed/
+backend/app/data/sample/*.json
+backend/app/data/raw/
+backend/datasets/raw/
+backend/datasets/processed/*
+!backend/datasets/processed/.gitkeep
+backend/datasets/imports/*.csv
+!backend/datasets/imports/.gitkeep
+backend/datasets/reports/*.json
+# Preprocessing outputs (large ML-ready data + reports)
+backend/data/processed/
+backend/data/reports/
+
+# Trained ML artifacts (models, checkpoints, scalers, predictions)
+backend/models/sea_ice/
+backend/models/iceberg/
+
+# Node / Vite
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+.vercel
+.env*

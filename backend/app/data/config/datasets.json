@@ -1,0 +1,113 @@
+{
+  "datasets": {
+    "sea_ice": {
+      "description": "Sea-ice concentration datasets for Antarctic region",
+      "sources": [
+        {
+          "source_id": "nsidc_seaice",
+          "name": "NSIDC Sea Ice Index",
+          "provider": "National Snow and Ice Data Center",
+          "variable": "sea_ice_concentration",
+          "unit": "fraction",
+          "resolution_km": 25,
+          "temporal_resolution": "daily",
+          "format": "NetCDF",
+          "url": "https://nsidc.org/data/seaice_index",
+          "coverage": "Arctic and Antarctic",
+          "demo_mode": true,
+          "demo_description": "Using synthetic sea-ice concentration data for development and testing"
+        },
+        {
+          "source_id": "copernicus_seaice",
+          "name": "Copernicus Marine Service",
+          "provider": "Copernicus Marine Environment Monitoring Service",
+          "variable": "sea_ice_concentration",
+          "unit": "fraction",
+          "resolution_km": 1,
+          "temporal_resolution": "daily",
+          "format": "NetCDF",
+          "url": "https://marine.copernicus.eu",
+          "coverage": "Global including Antarctic",
+          "demo_mode": true,
+          "demo_description": "API key required. Using synthetic data for development"
+        }
+      ],
+      "forecast_horizon_hours": [6, 12, 24, 48, 72],
+      "grid_resolution_degrees": 0.25,
+      "antarctic_bounds": {
+        "lat_min": -90,
+        "lat_max": -50,
+        "lon_min": -180,
+        "lon_max": 180
+      }
+    },
+    "iceberg": {
+      "description": "Iceberg tracking and trajectory datasets",
+      "sources": [
+        {
+          "source_id": "nsidc_iceberg",
+          "name": "NSIDC Iceberg Database",
+          "provider": "National Snow and Ice Data Center",
+          "variables": ["latitude", "longitude", "size_km2", "calving_date"],
+          "temporal_resolution": "irregular",
+          "format": "CSV/NetCDF",
+          "url": "https://nsidc.org/data/g00803",
+          "demo_mode": true,
+          "demo_description": "Using simulated iceberg positions for development"
+        },
+        {
+          "source_id": "usnic_iceberg",
+          "name": "US National Ice Center Iceberg Analysis",
+          "provider": "US National Ice Center",
+          "variables": ["latitude", "longitude", "length_km", "width_km", "orientation"],
+          "temporal_resolution": "daily",
+          "format": "Shapefile/GeoJSON",
+          "url": "https://usicecenter.gov",
+          "demo_mode": true,
+          "demo_description": "Using synthetic iceberg data for development"
+        }
+      ],
+      "prediction_horizons_hours": [2, 4, 6, 12, 24, 48, 72],
+      "max_icebergs_tracked": 500
+    },
+    "weather": {
+      "description": "Weather and ocean condition datasets",
+      "sources": [
+        {
+          "source_id": "era5",
+          "name": "ERA5 Reanalysis",
+          "provider": "ECMWF",
+          "variables": ["wind_u", "wind_v", "temperature", "pressure", "wave_height"],
+          "resolution_km": 31,
+          "temporal_resolution": "hourly",
+          "format": "NetCDF",
+          "url": "https://cds.climate.copernicus.eu",
+          "demo_mode": true,
+          "demo_description": "Using synthetic weather data for development"
+        }
+      ]
+    },
+    "ocean_currents": {
+      "description": "Ocean current datasets for trajectory modeling",
+      "sources": [
+        {
+          "source_id": "oscar_currents",
+          "name": "OSCAR Ocean Currents",
+          "provider": "NASA/JPL",
+          "variables": ["current_u", "current_v"],
+          "resolution_km": 25,
+          "temporal_resolution": "weekly",
+          "format": "NetCDF",
+          "url": "https://podaac.jpl.nasa.gov",
+          "demo_mode": true,
+          "demo_description": "Using climatological current data for development"
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "description": "Dataset configuration for the Antarctic Navigation DSS",
+    "demo_note": "All sources currently use synthetic data for development. Real data integration requires API keys and data access agreements.",
+    "netcdf_sample_path": "backend/app/data/sample/"
+  }
+}

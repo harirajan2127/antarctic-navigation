@@ -1,0 +1,175 @@
+{
+  "research_centers": [
+    {
+      "center_id": "mcmurdo_us",
+      "name": "McMurdo Station",
+      "latitude": -77.8469,
+      "longitude": 166.6687,
+      "country": "United States",
+      "description": "Largest Antarctic research station operated by the US Antarctic Program. Located on Ross Island.",
+      "elevation_m": 0,
+      "sector": "Ross Sea",
+      "active": true
+    },
+    {
+      "center_id": "scott_base_nz",
+      "name": "Scott Base",
+      "latitude": -77.8463,
+      "longitude": 166.7647,
+      "country": "New Zealand",
+      "description": "New Zealand's Antarctic research station on Ross Island, near McMurdo Station.",
+      "elevation_m": 0,
+      "sector": "Ross Sea",
+      "active": true
+    },
+    {
+      "center_id": "mawson_au",
+      "name": "Mawson Station",
+      "latitude": -67.6025,
+      "longitude": 62.8747,
+      "country": "Australia",
+      "description": "Australian research station in Mac. Robertson Land. One of the oldest continuously operating stations.",
+      "elevation_m": 16,
+      "sector": "Prydz Bay",
+      "active": true
+    },
+    {
+      "center_id": "davis_au",
+      "name": "Davis Station",
+      "latitude": -68.5764,
+      "longitude": 77.9682,
+      "country": "Australia",
+      "description": "Australian research station in the Vestfold Hills, Princess Elizabeth Land.",
+      "elevation_m": 12,
+      "sector": "Prydz Bay",
+      "active": true
+    },
+    {
+      "center_id": "casey_au",
+      "name": "Casey Station",
+      "latitude": -66.2825,
+      "longitude": 110.5247,
+      "country": "Australia",
+      "description": "Australian research station in the Windmill Islands, Budd Coast.",
+      "elevation_m": 42,
+      "sector": "Budd Coast",
+      "active": true
+    },
+    {
+      "center_id": "halley_uk",
+      "name": "Halley VI Research Station",
+      "latitude": -75.5830,
+      "longitude": -26.6580,
+      "country": "United Kingdom",
+      "description": "British Antarctic Survey station on the Brunt Ice Shelf. Modular and relocatable.",
+      "elevation_m": 30,
+      "sector": "Brunt Ice Shelf",
+      "active": true
+    },
+    {
+      "center_id": "syowa_jp",
+      "name": "Syowa Station",
+      "latitude": -69.0003,
+      "longitude": 39.5833,
+      "country": "Japan",
+      "description": "Japanese Antarctic research station on East Ongul Island, Lützow-Holm Bay.",
+      "elevation_m": 21,
+      "sector": "Lützow-Holm Bay",
+      "active": true
+    },
+    {
+      "center_id": "neumayer_de",
+      "name": "Neumayer Station III",
+      "latitude": -70.6500,
+      "longitude": -8.2667,
+      "country": "Germany",
+      "description": "German research station on the Ekström Ice Shelf, Atka Bay.",
+      "elevation_m": 42,
+      "sector": "Queen Maud Land",
+      "active": true
+    },
+    {
+      "center_id": "bharati_in",
+      "name": "Bharati Station",
+      "latitude": -69.3994,
+      "longitude": 76.2477,
+      "country": "India",
+      "description": "Indian research station on the Larsemann Hills, Princesse Elizabeth Land. Operational since 2012.",
+      "elevation_m": 28,
+      "sector": "Prydz Bay",
+      "active": true
+    },
+    {
+      "center_id": "maitri_in",
+      "name": "Maitri Station",
+      "latitude": -70.7667,
+      "longitude": 11.7333,
+      "country": "India",
+      "description": "Indian research station in Schirmacher Oasis, Queen Maud Land. Operational since 1989.",
+      "elevation_m": 117,
+      "sector": "Queen Maud Land",
+      "active": true
+    },
+    {
+      "center_id": "concorda_fr_it",
+      "name": "Concordia Station",
+      "latitude": -75.1000,
+      "longitude": 123.3500,
+      "country": "France/Italy",
+      "description": "Franco-Italian station at Dome C on the Antarctic Plateau. One of the most remote stations.",
+      "elevation_m": 3233,
+      "sector": "Dome C",
+      "active": true
+    },
+    {
+      "center_id": "princess_elisabeth_be",
+      "name": "Princess Elisabeth Station",
+      "latitude": -71.9500,
+      "longitude": 23.3500,
+      "country": "Belgium",
+      "description": "Zero-emission Antarctic research station in Dronning Maud Land.",
+      "elevation_m": 1397,
+      "sector": "Queen Maud Land",
+      "active": true
+    },
+    {
+      "center_id": "jang_bogo_kr",
+      "name": "Jang Bogo Station",
+      "latitude": -74.6167,
+      "longitude": 164.2167,
+      "country": "South Korea",
+      "description": "South Korean research station near Terra Nova Bay, Ross Sea.",
+      "elevation_m": 28,
+      "sector": "Ross Sea",
+      "active": true
+    },
+    {
+      "center_id": "zhongshan_cn",
+      "name": "Zhongshan Station",
+      "latitude": -69.3733,
+      "longitude": 76.3750,
+      "country": "China",
+      "description": "Chinese research station on the Larsemann Hills, East Antarctica.",
+      "elevation_m": 18,
+      "sector": "Prydz Bay",
+      "active": true
+    },
+    {
+      "center_id": "villa_las_estrellas_cl",
+      "name": "Villa Las Estrellas",
+      "latitude": -62.1917,
+      "longitude": -58.9633,
+      "country": "Chile",
+      "description": "Chilean civilian settlement and research station on King George Island, South Shetland Islands.",
+      "elevation_m": 10,
+      "sector": "South Shetland Islands",
+      "active": true
+    }
+  ],
+  "_metadata": {
+    "description": "Antarctic research centers with verified coordinates.",
+    "last_verified": "2024-01-01",
+    "note": "Coordinates verified from public sources. Some coordinates may have slight variations across sources.",
+    "sample_configuration": true
+  }
+}

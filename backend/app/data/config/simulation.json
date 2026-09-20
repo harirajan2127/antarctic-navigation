@@ -1,0 +1,46 @@
+{
+  "simulation": {
+    "description": "Default simulation parameters for the Antarctic Navigation DSS",
+    "time_step_hours": 2,
+    "real_time_multiplier": 1,
+    "max_simulation_hours": 720,
+    "default_vessel_id": "polar_explorer",
+    "default_departure_port_id": "hobart_au",
+    "default_destination_id": "mcmurdo_us",
+    "default_journey_mode": "outbound",
+    "navigation": {
+      "grid_resolution_degrees": 0.5,
+      "risk_weights": {
+        "sea_ice_concentration": 0.35,
+        "iceberg_proximity": 0.30,
+        "weather_severity": 0.20,
+        "distance_penalty": 0.15
+      },
+      "safety_thresholds": {
+        "max_safe_sea_ice_concentration": 0.6,
+        "iceberg_exclusion_radius_km": 20,
+        "min_distance_from_ice_edge_km": 30,
+        "max_wind_speed_knots": 50,
+        "max_wave_height_m": 8
+      },
+      "fuel_efficiency_weight": 0.4,
+      "safety_weight": 0.6,
+      "route_update_interval_hours": 2
+    },
+    "vessel": {
+      "default_speed_knots": 12,
+      "min_speed_knots": 4,
+      "max_speed_knots": 16,
+      "turn_rate_degrees_per_minute": 2
+    },
+    "display": {
+      "map_default_center": [-75, 0],
+      "map_default_zoom": 3,
+      "track_point_interval_hours": 2,
+      "show_ice_edge": true,
+      "show_icebergs": true,
+      "show_route": true,
+      "show_risk_zones": true
+    }
+  }
+}

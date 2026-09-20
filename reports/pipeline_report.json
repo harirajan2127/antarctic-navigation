@@ -1,0 +1,142 @@
+{
+  "created_utc": "2026-09-14T11:59:47Z",
+  "dry_run": false,
+  "duration_seconds": 1562.12,
+  "datasets": {
+    "sea_ice": {
+      "dataset": "sea_ice",
+      "sources": [
+        "amsr2",
+        "dmi"
+      ],
+      "n_files_seen": 1061,
+      "rows_written": 97941971,
+      "rows_land_removed": 48658,
+      "rows_nodata": 29054597,
+      "parts": [
+        {
+          "path": "sea_ice_part_202201.csv",
+          "rows": 5000000
+        },
+        {
+          "path": "sea_ice_part_202202.csv",
+          "rows": 5000000
+        },
+        {
+          "path": "sea_ice_part_202204.csv",
+          "rows": 5000000
+        },
+        {
+          "path": "sea_ice_part_202206.csv",
+          "rows": 5000000
+        },
+        {
+          "path": "sea_ice_part_202208.csv",
+          "rows": 5000000
+        },
+        {
+          "path": "sea_ice_part_202209.csv",
+          "rows": 5000000
+        },
+        {
+          "path": "sea_ice_part_202211.csv",
+          "rows": 5000000
+        },
+        {
+          "path": "sea_ice_part_202301.csv",
+          "rows": 5000000
+        },
+        {
+          "path": "sea_ice_part_202303.csv",
+          "rows": 10000000
+        },
+        {
+          "path": "sea_ice_part_202305.csv",
+          "rows": 5000000
+        },
+        {
+          "path": "sea_ice_part_202306.csv",
+          "rows": 10000000
+        },
+        {
+          "path": "sea_ice_part_202308.csv",
+          "rows": 10000000
+        },
+        {
+          "path": "sea_ice_part_202310.csv",
+          "rows": 10000000
+        },
+        {
+          "path": "sea_ice_part_202312.csv",
+          "rows": 5000000
+        },
+        {
+          "path": "sea_ice_part_202304.csv",
+          "rows": 5000000
+        },
+        {
+          "path": "sea_ice_part_202311.csv",
+          "rows": 2941971
+        }
+      ],
+      "latest_snapshot_parts": [
+        {
+          "path": "sea_ice_latest_part_202312.csv",
+          "rows": 184622
+        }
+      ],
+      "grid_step_deg": 0.25,
+      "lat_band": [
+        -75.0,
+        -55.0
+      ],
+      "target_cells": 116640,
+      "skipped": [],
+      "per_source_counts": {
+        "amsr2": 67479341,
+        "dmi": 30462630
+      },
+      "conversion_utc": "2026-09-14T11:58:27Z",
+      "status": "ok",
+      "warnings": [],
+      "duration_seconds": 1204.4
+    }
+  },
+  "log": [
+    {
+      "ts": "2026-09-14T11:33:44Z",
+      "level": "INFO",
+      "message": "Discovering datasets under F:\\SIH HACK\\SIH HACK\\Real data\\raw"
+    },
+    {
+      "ts": "2026-09-14T11:33:45Z",
+      "level": "INFO",
+      "message": "detected: {'sea_ice': 1065, 'iceberg': 70, 'ocean': 8, 'weather': 7, 'vessel': 8, 'bathymetry': 1}"
+    },
+    {
+      "ts": "2026-09-14T11:38:23Z",
+      "level": "INFO",
+      "message": "Converting dataset 'sea_ice' (1065 files)"
+    },
+    {
+      "ts": "2026-09-14T11:41:52Z",
+      "level": "INFO",
+      "message": "sea_ice source 'amsr2': converting 731 daily files"
+    },
+    {
+      "ts": "2026-09-14T11:51:22Z",
+      "level": "INFO",
+      "message": "sea_ice source 'dmi': converting 330 daily files"
+    },
+    {
+      "ts": "2026-09-14T11:58:27Z",
+      "level": "INFO",
+      "message": "sea_ice done: 97941971 rows, 16 parts, 48658 land cells dropped, 29054597 nodata rows kept"
+    },
+    {
+      "ts": "2026-09-14T11:59:47Z",
+      "level": "INFO",
+      "message": "manifest -> F:\\SIH HACK\\SIH HACK\\Real data\\processed\\manifest.json"
+    }
+  ]
+}

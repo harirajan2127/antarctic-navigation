@@ -1,0 +1,102 @@
+# Dataset configuration for the Antarctic Navigation DSS
+#
+# The dashboard's real (non-demo) datasets live under `Real data/` at the
+# project root.  This file is the single source of truth for how the
+# data-loading code resolves them, how `scripts/validate_datasets.py` checks
+# them, and what each dataset must contain.
+#
+# Paths here are relative to the project root (one level above the `backend/`
+# and `frontend/` trees).  All tables are YET-TO-BE-POPULATED templates: they
+# stay empty until real datasets are dropped in (see `Real data/README.md`).
+# The application keeps working while these folders are empty — the data
+# loaders fall back to the existing demo/synthetic demo datasets and surface a
+# clear "real dataset missing" warning instead of crashing.
+
+version: 1
+
+# Supported file formats, keyed by the file extension we accept.  Used by the
+# validator to decide whether a file in a dataset folder is "known and loadable".
+supported_formats:
+  - ".csv"
+  - ".json"
+  - ".geojson"
+  - ".nc"
+  - ".netcdf"
+  - ".gpkg"
+  - ".parquet"
+  - ".tif"
+  - ".tiff"
+
+# Root of the real (i.e. non-demo) datasets.  Everything below is relative to
+# this folder.  `raw/` holds original files exactly as downloaded — never
+# modified, cleaned, resampled or overwritten by this project.  `processed/`
+# holds everything the project generates (never the originals).
+real_data_root: "Real data"
+raw_root: "Real data/raw"
+processed_root: "Real data/processed"
+external_root: "Real data/external"
+
+# Per-dataset configuration.  Each key is the dataset id used by the backend
+# dataset_service ({sea_ice, iceberg, ocean, weather, vessel}).
+datasets:
+  sea_ice:
+    description: "Sea-ice concentration over the 55°S–75°S Antarctic coastal ocean"
+    raw_dir: "Real data/raw/sea_ice"
+    processed_dir: "Real data/processed/sea_ice"
+    formats: [".nc", ".netcdf", ".tif", ".tiff"]
+    variables:
+      - "concentration"
+      - "latitude"
+      - "longitude"
+    required_variables: ["concentration", "latitude", "longitude"]
+    lat_bounds: [-75.0, -55.0]
+  iceberg:
+    description: "Iceberg tracks, sizes and positions (ocean-only, on-land tagged)"
+    raw_dir: "Real data/raw/iceberg"
+    processed_dir: "Real data/processed/iceberg"
+    formats: [".csv", ".json", ".geojson", ".gpkg", ".parquet"]
+    columns:
+      - "latitude"
+      - "longitude"
+      - "on_land"
+    required_columns: ["latitude", "longitude"]
+    lat_bounds: [-75.0, -55.0]
+  ocean:
+    description: "Ocean surface temperature/currents (Antarctic region)"
+    raw_dir: "Real data/raw/ocean"
+    processed_dir: "Real data/processed/ocean"
+    formats: [".nc", ".netcdf", ".tif", ".tiff"]
+    variables:
+      - "sst"
+      - "latitude"
+      - "longitude"
+    required_variables: ["sst", "latitude", "longitude"]
+    lat_bounds: [-90.0, -50.0]
+  weather:
+    description: "Surface weather fields (wind, pressure, temperature)"
+    raw_dir: "Real data/raw/weather"
+    processed_dir: "Real data/processed/weather"
+    formats: [".csv", ".json", ".nc", ".netcdf"]
+    variables:
+      - "wind_u"
+      - "wind_v"
+      - "pressure"
+      - "temperature"
+    required_variables: ["wind_u", "wind_v"]
+    lat_bounds: [-90.0, -50.0]
+  vessel:
+    description: "Vessel position, speed, heading and configuration"
+    raw_dir: "Real data/raw/vessel"
+    processed_dir: "Real data/processed/vessel"
+    formats: [".csv", ".json", ".geojson", ".parquet"]
+    columns:
+      - "latitude"
+      - "longitude"
+      - "speed"
+      - "heading"
+    required_columns: ["latitude", "longitude"]
+    lat_bounds: [-90.0, -50.0]
+
+# Latitude range considered "the selected Antarctic coastal band" during
+# validation.  Data outside this band is reported as out-of-area.
+selected_lat_band: [-75.0, -55.0]

@@ -1,0 +1,85 @@
+{
+  "vessels": [
+    {
+      "vessel_id": "polar_explorer",
+      "name": "Polar Explorer",
+      "type": "ice_breaker",
+      "length_m": 120,
+      "beam_m": 22,
+      "draft_m": 8.5,
+      "displacement_tons": 8500,
+      "max_speed_knots": 16,
+      "cruise_speed_knots": 12,
+      "fuel_rate_lph": 1372.5,
+      "ice_class": "PC3",
+      "safety_distance_nm": 10.8,
+      "fuel_capacity_tons": 1200,
+      "fuel_consumption_tons_per_day": {
+        "cruise_speed": 28,
+        "max_speed": 45,
+        "slow_speed": 18
+      },
+      "range_nautical_miles": {
+        "cruise_speed": 15000,
+        "slow_speed": 20000
+      },
+      "description": "Heavy icebreaker rated for year-round operation in medium first-year ice.",
+      "sensors": ["GPS", "radar", "sonar", "weather_station", "ice_radar"],
+      "status": "available"
+    },
+    {
+      "vessel_id": "research_vessel_sagar",
+      "name": "RV Sagar Nidhi",
+      "type": "research_vessel",
+      "length_m": 105,
+      "beam_m": 18,
+      "draft_m": 6.5,
+      "displacement_tons": 5500,
+      "max_speed_knots": 15,
+      "cruise_speed_knots": 11,
+      "fuel_rate_lph": 980.4,
+      "ice_class": "PC5",
+      "safety_distance_nm": 10.8,
+      "fuel_capacity_tons": 800,
+      "fuel_consumption_tons_per_day": {
+        "cruise_speed": 20,
+        "max_speed": 32,
+        "slow_speed": 14
+      },
+      "range_nautical_miles": {
+        "cruise_speed": 12000,
+        "slow_speed": 16000
+      },
+      "description": "Indian research vessel used for Antarctic expeditions and oceanographic research.",
+      "sensors": ["GPS", "radar", "sonar", "weather_station", "CTD"],
+      "status": "available"
+    },
+    {
+      "vessel_id": "supply_cargo",
+      "name": "Antarctic Supply Vessel",
+      "type": "cargo",
+      "length_m": 130,
+      "beam_m": 20,
+      "draft_m": 7.0,
+      "displacement_tons": 7000,
+      "max_speed_knots": 14,
+      "cruise_speed_knots": 10,
+      "fuel_rate_lph": 1470.6,
+      "ice_class": "PC4",
+      "safety_distance_nm": 10.8,
+      "fuel_capacity_tons": 1500,
+      "fuel_consumption_tons_per_day": {
+        "cruise_speed": 30,
+        "max_speed": 48,
+        "slow_speed": 20
+      },
+      "range_nautical_miles": {
+        "cruise_speed": 14000,
+        "slow_speed": 18000
+      },
+      "description": "General purpose cargo vessel configured for Antarctic resupply operations.",
+      "sensors": ["GPS", "radar", "weather_station"],
+      "status": "available"
+    }
+  ]
+}

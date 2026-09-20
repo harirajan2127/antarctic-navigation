@@ -1,0 +1,844 @@
+{
+  "timestamp": "2026-09-17T17:19:26+00:00",
+  "data_mode": "real",
+  "statuses": {
+    "data_verification": "PASSED",
+    "sea_ice_model": "VERIFIED",
+    "iceberg_model": "VERIFIED",
+    "single_route": "VERIFIED",
+    "two_hour_recalc": "INSUFFICIENT_DATA",
+    "land_mask": "VERIFIED",
+    "route_engine": "VERIFIED"
+  },
+  "data": {
+    "datasets": {
+      "iceberg": {
+        "columns": [
+          "iceberg_id",
+          "timestamp",
+          "latitude",
+          "longitude",
+          "length_nm",
+          "width_nm",
+          "remarks",
+          "source_file",
+          "source_format"
+        ],
+        "dtypes": {
+          "iceberg_id": "str",
+          "timestamp": "str",
+          "latitude": "float64",
+          "longitude": "float64",
+          "length_nm": "float64",
+          "width_nm": "float64",
+          "remarks": "str",
+          "source_file": "str",
+          "source_format": "str"
+        },
+        "missing": {
+          "iceberg_id": 0,
+          "timestamp": 0,
+          "latitude": 0,
+          "longitude": 0,
+          "length_nm": 0,
+          "width_nm": 0,
+          "remarks": 720,
+          "source_file": 0,
+          "source_format": 0
+        },
+        "rows": 2963,
+        "duplicate_rows": 0,
+        "file": "iceberg_processed.csv",
+        "latitude_range": [
+          -74.97,
+          -55.0
+        ],
+        "longitude_range": [
+          -167.67,
+          148.14
+        ],
+        "timestamp_range": [
+          "2022-01-07T00:00:00+00:00",
+          "2023-12-21T00:00:00+00:00"
+        ],
+        "distinct_icebergs": 65,
+        "ground_truth_future": true
+      },
+      "sea_ice": {
+        "columns": [
+          "timestamp",
+          "latitude",
+          "longitude",
+          "sea_ice_concentration",
+          "nodata_flag"
+        ],
+        "dtypes": {
+          "timestamp": "str",
+          "latitude": "float64",
+          "longitude": "float64",
+          "sea_ice_concentration": "float64",
+          "nodata_flag": "int64"
+        },
+        "missing": {
+          "timestamp": 0,
+          "latitude": 0,
+          "longitude": 0,
+          "sea_ice_concentration": 2392521,
+          "nodata_flag": 0
+        },
+        "rows": 5000000,
+        "duplicate_rows": 0,
+        "file": "sea_ice_part_202312.csv",
+        "latitude_range": [
+          -75.0,
+          -55.0
+        ],
+        "longitude_range": [
+          -180.0,
+          179.75
+        ],
+        "timestamp_range": [
+          "2023-02-02T00:00:00+00:00",
+          "2023-12-31T00:00:00+00:00"
+        ],
+        "distinct_timestamps": 55,
+        "concentration_range": [
+          0.0,
+          1.0
+        ],
+        "concentration_unit": "fraction (0..1)",
+        "nodata_rows": 2392521
+      }
+    },
+    "sea_ice": {
+      "status": "VERIFIED",
+      "model": "persistence",
+      "trained_on_real": false,
+      "evaluation_file": "sea_ice_part_202312.csv",
+      "split": {
+        "train_window_dates": [
+          "2023-02-02T00:00:00.000000",
+          "2023-02-03T00:00:00.000000",
+          "2023-02-04T00:00:00.000000",
+          "2023-02-05T00:00:00.000000",
+          "2023-02-06T00:00:00.000000",
+          "2023-02-07T00:00:00.000000",
+          "2023-02-08T00:00:00.000000",
+          "2023-02-09T00:00:00.000000",
+          "2023-02-10T00:00:00.000000",
+          "2023-02-11T00:00:00.000000",
+          "2023-02-12T00:00:00.000000",
+          "2023-02-13T00:00:00.000000",
+          "2023-02-14T00:00:00.000000",
+          "2023-02-15T00:00:00.000000",
+          "2023-02-16T00:00:00.000000",
+          "2023-02-17T00:00:00.000000",
+          "2023-02-18T00:00:00.000000",
+          "2023-02-19T00:00:00.000000",
+          "2023-02-20T00:00:00.000000",
+          "2023-02-21T00:00:00.000000",
+          "2023-02-22T00:00:00.000000",
+          "2023-02-23T00:00:00.000000",
+          "2023-02-24T00:00:00.000000",
+          "2023-02-25T00:00:00.000000",
+          "2023-02-26T00:00:00.000000",
+          "2023-02-27T00:00:00.000000",
+          "2023-02-28T00:00:00.000000",
+          "2023-03-01T00:00:00.000000",
+          "2023-12-05T00:00:00.000000",
+          "2023-12-06T00:00:00.000000",
+          "2023-12-07T00:00:00.000000",
+          "2023-12-08T00:00:00.000000",
+          "2023-12-09T00:00:00.000000",
+          "2023-12-10T00:00:00.000000",
+          "2023-12-11T00:00:00.000000",
+          "2023-12-12T00:00:00.000000",
+          "2023-12-13T00:00:00.000000",
+          "2023-12-14T00:00:00.000000"
+        ],
+        "val_window_dates": [
+          "2023-12-15T00:00:00.000000",
+          "2023-12-16T00:00:00.000000",
+          "2023-12-17T00:00:00.000000",
+          "2023-12-18T00:00:00.000000",
+          "2023-12-19T00:00:00.000000"
+        ],
+        "test_window_dates": [
+          "2023-12-20T00:00:00.000000",
+          "2023-12-21T00:00:00.000000",
+          "2023-12-22T00:00:00.000000",
+          "2023-12-23T00:00:00.000000",
+          "2023-12-24T00:00:00.000000",
+          "2023-12-25T00:00:00.000000",
+          "2023-12-26T00:00:00.000000",
+          "2023-12-27T00:00:00.000000",
+          "2023-12-28T00:00:00.000000",
+          "2023-12-29T00:00:00.000000",
+          "2023-12-30T00:00:00.000000",
+          "2023-12-31T00:00:00.000000"
+        ],
+        "n_train_dates": 38,
+        "n_val_dates": 5,
+        "n_test_dates": 12,
+        "n_train_pairs": 824030,
+        "n_val_pairs": 368835,
+        "n_test_pairs": 1013895
+      },
+      "target": "sea_ice_concentration (fraction 0..1)",
+      "unit": "fraction",
+      "test_horizon_hours": 24.0,
+      "metrics": {
+        "n": 1013895,
+        "mae": 0.0360397279077222,
+        "rmse": 0.10875058835390966,
+        "mse": 0.011826690467321512,
+        "r2": 0.8981420820786747,
+        "explained_variance": 0.8983282870319445,
+        "mean_bias": -0.004649752458587921,
+        "correlation": 0.9497821807621565,
+        "mean_actual": 0.17423534461951187,
+        "mean_pred": 0.1788850970780998
+      },
+      "val_metrics": {
+        "n": 368835,
+        "mae": 0.037347874765138886,
+        "rmse": 0.1092136228254695,
+        "mse": 0.01192761541066391,
+        "r2": 0.9169510687573185,
+        "explained_variance": 0.9171033897232828,
+        "mean_bias": -0.004677239754903954,
+        "correlation": 0.9589412386783652,
+        "mean_actual": 0.2212910852440793,
+        "mean_pred": 0.22596832499898326
+      },
+      "train_reference_metrics": {
+        "n": 824030,
+        "mae": 0.04383067851170467,
+        "rmse": 0.12194316567765892,
+        "mse": 0.014870135655488973,
+        "r2": 0.9052748622271212,
+        "explained_variance": 0.9054448923998055,
+        "mean_bias": -0.005166397771925781,
+        "correlation": 0.953083657435741,
+        "mean_actual": 0.2512055177517809,
+        "mean_pred": 0.2563719155237067
+      },
+      "by_latitude": {
+        "-75_-70": {
+          "n": 135799,
+          "mae": 0.078732018836663,
+          "rmse": 0.15969293765402304,
+          "mse": 0.025501834336571685,
+          "r2": 0.8628575278119205,
+          "explained_variance": 0.8632631714897185,
+          "mean_bias": -0.008685045118152565,
+          "correlation": 0.9314981630644191,
+          "mean_actual": 0.5669523609452205,
+          "mean_pred": 0.575637406063373
+        },
+        "-70_-65": {
+          "n": 237745,
+          "mae": 0.07975984771078255,
+          "rmse": 0.1601963568334164,
+          "mse": 0.025662872742699277,
+          "r2": 0.8266618039152976,
+          "explained_variance": 0.8274160110242372,
+          "mean_bias": -0.010566978157269343,
+          "correlation": 0.914510123876191,
+          "mean_actual": 0.30832133619213864,
+          "mean_pred": 0.31888831434940795
+        },
+        "-65_-60": {
+          "n": 309382,
+          "mae": 0.02200971548441732,
+          "rmse": 0.087905495037867,
+          "mse": 0.00772737605785246,
+          "r2": 0.8776126977203055,
+          "explained_variance": 0.8777834585786312,
+          "mean_bias": -0.0032835377041973996,
+          "correlation": 0.9400248796978601,
+          "mean_actual": 0.08503519087406508,
+          "mean_pred": 0.08831872857826248
+        },
+        "-60_-55": {
+          "n": 315354,
+          "mae": 0.00021519049702873594,
+          "rmse": 0.009860272568247695,
+          "mse": 9.7224975120138e-05,
+          "r2": -0.4702532012073033,
+          "explained_variance": -0.4702489388151724,
+          "mean_bias": -1.6788796083131974e-05,
+          "correlation": 0.3241529144020168,
+          "mean_actual": 0.00013536491054497486,
+          "mean_pred": 0.0001521537066281068
+        }
+      },
+      "by_concentration": {
+        "0_0.2": {
+          "n": 791053,
+          "mae": 0.01148673214689787,
+          "rmse": 0.06836637076061568,
+          "mse": 0.004673960650977966,
+          "r2": -9.777163730782533,
+          "explained_variance": -9.571360550944782,
+          "mean_bias": -0.009447487497045078,
+          "correlation": 0.5499577896860209,
+          "mean_actual": 0.00345462263843257,
+          "mean_pred": 0.012902110135477646
+        },
+        "0.2_0.4": {
+          "n": 24431,
+          "mae": 0.23592416859727394,
+          "rmse": 0.28747617130840336,
+          "mse": 0.08264254907013847,
+          "r2": -23.42603653542081,
+          "explained_variance": -20.57914570771892,
+          "mean_bias": -0.09814332278662356,
+          "correlation": 0.15039113375606805,
+          "mean_actual": 0.29978964164381317,
+          "mean_pred": 0.39793296443043674
+        },
+        "0.4_0.6": {
+          "n": 27514,
+          "mae": 0.22106940488478594,
+          "rmse": 0.263789099631029,
+          "mse": 0.06958468908414894,
+          "r2": -19.91024203198422,
+          "explained_variance": -19.708079894409426,
+          "mean_bias": -0.02593744697245039,
+          "correlation": 0.1478568153983913,
+          "mean_actual": 0.5029128478956167,
+          "mean_pred": 0.5288502948680671
+        },
+        "0.6_0.8": {
+          "n": 37877,
+          "mae": 0.18014048602054017,
+          "rmse": 0.23268215513650103,
+          "mse": 0.05414098531896673,
+          "r2": -15.33407312522565,
+          "explained_variance": -15.066389131088801,
+          "mean_bias": 0.029787018269662326,
+          "correlation": 0.19182457963493796,
+          "mean_actual": 0.7072843749504977,
+          "mean_pred": 0.6774973566808353
+        },
+        "0.8_1.0": {
+          "n": 102015,
+          "mae": 0.08084083518110083,
+          "rmse": 0.14547055319931715,
+          "mse": 0.021161681848115364,
+          "r2": -5.421687579961678,
+          "explained_variance": -4.9061283547837835,
+          "mean_bias": 0.04121827240111748,
+          "correlation": 0.4023002928292274,
+          "mean_actual": 0.930916434142038,
+          "mean_pred": 0.8896981617409205
+        }
+      },
+      "invalid_predictions": 0,
+      "zero_baseline_test": {
+        "n": 1014360,
+        "mae": 0.17446158565499428,
+        "rmse": 0.382985780911003,
+        "mse": 0.1466781083800108,
+        "r2": -0.26184199956187304,
+        "explained_variance": 0.0,
+        "mean_bias": 0.17446158565499428,
+        "correlation": NaN,
+        "mean_actual": 0.17446158565499428,
+        "mean_pred": 0.0
+      },
+      "beats_zero_baseline": true
+    },
+    "iceberg": {
+      "status": "VERIFIED",
+      "model": "random_forest",
+      "trained_on_real": true,
+      "dataset": "iceberg_processed.csv",
+      "n_test_pairs": 415,
+      "n_test_icebergs": 61,
+      "latitude_mae": 0.05112435288941298,
+      "longitude_mae": 0.26279664106041234,
+      "haversine_mean_km": 16.41620777335219,
+      "haversine_median_km": 0.908683707890861,
+      "haversine_max_km": 1831.3070831364914,
+      "position_rmse_km": 130.61295058156318,
+      "within_km": {},
+      "horizon_buckets": {},
+      "baseline_mean_km": 62.63973304860188,
+      "model_beats_baseline": true,
+      "note": "Random forest trained on cleaned real iceberg observations with a chronological hold-out. No future observations were used as features.",
+      "horizons_available": [],
+      "horizons_required_but_unavailable": [
+        "2h",
+        "6h",
+        "12h"
+      ]
+    },
+    "route": {
+      "status": "VERIFIED",
+      "classification": "pipeline_data",
+      "distance_km": 3792.68,
+      "distance_nm": 2047.89,
+      "travel_time_hours": 170.66,
+      "fuel_tons": 199.1,
+      "waypoints": 80,
+      "risk_score": 0.1217,
+      "risk_level": "moderate",
+      "generation_time_s": 14.939542500000243,
+      "starts_at_departure": true,
+      "ends_at_destination": true,
+      "warnings": [
+        "Iceberg predictions use trained model 'random_forest' on real observations.",
+        "Weather severity derived from the newest real wind field.",
+        "Land mask loaded (json): 23967 cells marked land.",
+        "Iceberg tracking hazard within 60 km at (-66.00, 110.00) (43.9 km).",
+        "Iceberg tracking hazard within 60 km at (-66.00, 110.50) (48.5 km).",
+        "Iceberg tracking hazard within 60 km at (-66.50, 110.50) (23.6 km)."
+      ],
+      "alternatives": 2
+    },
+    "two_hour": {
+      "target_percent": 10.0,
+      "dataset_time_interval_hours": 168.0,
+      "number_of_iceberg_tracks": 65,
+      "number_of_2h_prediction_pairs": 0,
+      "number_of_valid_2h_evaluations": 0,
+      "missing_or_invalid_records": 44,
+      "duplicate_records": 44,
+      "records_before_cleaning": 2963,
+      "prediction_horizon_hours": 2.0,
+      "error_tolerance_km": 20.0,
+      "predictions": [],
+      "status": "INSUFFICIENT_DATA",
+      "message": "Insufficient 2-hour ground-truth data",
+      "accuracy_percent": null,
+      "average_distance_error_km": null,
+      "average_distance_error_nm": null
+    },
+    "land_mask": {
+      "target_percent": 5.0,
+      "status": "VERIFIED",
+      "message": null,
+      "total_predicted_points": 65,
+      "ocean_points": 48,
+      "land_points": 17,
+      "invalid_coordinates": 0,
+      "coastline_tolerance_km": 5.0,
+      "accuracy_percent": 73.8462,
+      "predictions": [
+        {
+          "latitude": -62.0186,
+          "longitude": -52.1153,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -60.53,
+          "longitude": -49.56,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -60.7411,
+          "longitude": -49.9311,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -59.1862,
+          "longitude": -52.992,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -59.7825,
+          "longitude": -50.6531,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -61.68,
+          "longitude": -52.34,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -72.1057,
+          "longitude": -54.111,
+          "on_land": true,
+          "valid_ocean": false
+        },
+        {
+          "latitude": -67.4751,
+          "longitude": -55.2025,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -55.5116,
+          "longitude": -34.117,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -65.1311,
+          "longitude": -56.4071,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -65.2106,
+          "longitude": -57.3468,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -55.14,
+          "longitude": -34.34,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -55.64,
+          "longitude": -34.82,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -55.81,
+          "longitude": -34.1,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -72.3396,
+          "longitude": -55.549,
+          "on_land": true,
+          "valid_ocean": false
+        },
+        {
+          "latitude": -60.4606,
+          "longitude": -31.2999,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -71.09,
+          "longitude": -60.4901,
+          "on_land": true,
+          "valid_ocean": false
+        },
+        {
+          "latitude": -65.2937,
+          "longitude": -57.0455,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -64.9256,
+          "longitude": -56.0057,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -66.17,
+          "longitude": 143.43,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -68.19,
+          "longitude": 41.71,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -56.1781,
+          "longitude": -22.7708,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -72.19,
+          "longitude": -15.9,
+          "on_land": true,
+          "valid_ocean": false
+        },
+        {
+          "latitude": -71.4151,
+          "longitude": -115.2496,
+          "on_land": true,
+          "valid_ocean": false
+        },
+        {
+          "latitude": -74.0498,
+          "longitude": -110.1031,
+          "on_land": true,
+          "valid_ocean": false
+        },
+        {
+          "latitude": -73.74,
+          "longitude": -110.5,
+          "on_land": true,
+          "valid_ocean": false
+        },
+        {
+          "latitude": -70.7403,
+          "longitude": -56.3897,
+          "on_land": true,
+          "valid_ocean": false
+        },
+        {
+          "latitude": -65.25,
+          "longitude": 128.2925,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -62.7959,
+          "longitude": -138.0442,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -72.1727,
+          "longitude": -114.33,
+          "on_land": true,
+          "valid_ocean": false
+        },
+        {
+          "latitude": -63.6838,
+          "longitude": -140.744,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -73.864,
+          "longitude": -133.6638,
+          "on_land": true,
+          "valid_ocean": false
+        },
+        {
+          "latitude": -57.9108,
+          "longitude": -149.0527,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -65.93,
+          "longitude": 143.18,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -65.6993,
+          "longitude": 81.1306,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -64.84,
+          "longitude": 96.02,
+          "on_land": true,
+          "valid_ocean": false
+        },
+        {
+          "latitude": -66.06,
+          "longitude": 142.75,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -64.78,
+          "longitude": 96.29,
+          "on_land": true,
+          "valid_ocean": false
+        },
+        {
+          "latitude": -64.68,
+          "longitude": 96.5,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -65.7212,
+          "longitude": 122.222,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -66.27,
+          "longitude": 142.99,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -67.91,
+          "longitude": 147.46,
+          "on_land": true,
+          "valid_ocean": false
+        },
+        {
+          "latitude": -64.5004,
+          "longitude": 100.2041,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -65.2248,
+          "longitude": 101.1577,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -64.8579,
+          "longitude": 98.5867,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -64.6498,
+          "longitude": 98.301,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -66.3941,
+          "longitude": 110.0386,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -62.2352,
+          "longitude": -47.0785,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -69.43,
+          "longitude": 74.7,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -69.19,
+          "longitude": 29.44,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -71.4732,
+          "longitude": -47.8125,
+          "on_land": true,
+          "valid_ocean": false
+        },
+        {
+          "latitude": -55.8817,
+          "longitude": -34.9644,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -60.5007,
+          "longitude": -20.3765,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -57.4033,
+          "longitude": -40.6143,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -59.3954,
+          "longitude": -35.0247,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -55.8712,
+          "longitude": -40.5765,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -60.8726,
+          "longitude": -44.982,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -60.3981,
+          "longitude": -34.8586,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -65.3344,
+          "longitude": 53.6833,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -69.5856,
+          "longitude": -1.897,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -69.6896,
+          "longitude": 6.8987,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -55.7823,
+          "longitude": -34.6514,
+          "on_land": false,
+          "valid_ocean": true
+        },
+        {
+          "latitude": -71.582,
+          "longitude": -60.8131,
+          "on_land": true,
+          "valid_ocean": false
+        },
+        {
+          "latitude": -71.762,
+          "longitude": -61.0477,
+          "on_land": true,
+          "valid_ocean": false
+        },
+        {
+          "latitude": -73.092,
+          "longitude": -72.9048,
+          "on_land": true,
+          "valid_ocean": false
+        }
+      ],
+      "info": {
+        "loaded": true,
+        "file": "C:\\my project\\final\\SIH HACK\\Real data\\processed\\bathymetry\\land_ocean_mask.json",
+        "format": "json",
+        "land_cells": 23967,
+        "land_fraction": 0.5449398603942611
+      },
+      "land_cells": 23967,
+      "land_fraction": 0.5449398603942611
+    },
+    "leakage": {
+      "chronological_split_used": "Yes \u2014 dates/observations ordered in time; test uses only the latest window.",
+      "future_values_used_as_inputs": "No",
+      "train_test_overlap": "No \u2014 distinct dates/windows.",
+      "evaluated_on_training_records": "No"
+    },
+    "limitations": [
+      "The 2-hour score uses only consecutive real observations within the configured 2-hour interval tolerance; interpolated points are never counted as ground truth.",
+      "Sea-ice persistence metrics were computed from a single monthly part of the real CSV set.",
+      "Iceberg observations are ~weekly, so sub-week horizons without direct ground truth are reported as insufficient rather than scored.",
+      "This is software/research validation, not a real-world navigation safety claim."
+    ]
+  }
+}

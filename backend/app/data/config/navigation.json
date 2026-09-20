@@ -1,0 +1,50 @@
+{
+  "navigation": {
+    "description": "Configuration for the navigation decision-support engine",
+    "region": {
+      "lat_min": -85.0,
+      "lat_max": -33.0,
+      "lon_min": -180.0,
+      "lon_max": 180.0
+    },
+    "grid_resolution_degrees": 0.5,
+    "risk_weights": {
+      "sea_ice_concentration": 0.4,
+      "iceberg_proximity": 0.35,
+      "weather_severity": 0.25
+    },
+    "thresholds": {
+      "max_safe_sea_ice_concentration": 0.6,
+      "sea_ice_block_threshold": 0.85,
+      "sea_ice_high_risk_threshold": 0.6,
+      "sea_ice_moderate_risk_threshold": 0.3,
+      "iceberg_exclusion_radius_km": 20.0,
+      "iceberg_safety_buffer_km": 30.0,
+      "iceberg_reach_km": 150.0,
+      "hard_iceberg_block_km": 20.0,
+      "iceberg_block_radius_km": 20.0,
+      "iceberg_warning_radius_km": 60.0,
+      "iceberg_prediction_horizon_hours": 24,
+      "min_clearance_km": 10.0,
+      "max_wind_speed_knots": 50.0,
+      "max_wave_height_m": 8.0,
+      "max_risk_ratio": 0.95
+    },
+    "objective_weights": {
+      "safety": 0.6,
+      "distance": 0.4
+    },
+    "ice_class_limits": {
+      "PC1": 1.0,
+      "PC2": 1.0,
+      "PC3": 1.0,
+      "PC4": 0.8,
+      "PC5": 0.6,
+      "PC6": 0.45,
+      "PC7": 0.3,
+      "NO": 0.2
+    },
+    "default_vessel_id": "polar_explorer",
+    "forecast_horizon_hours": 24
+  }
+}

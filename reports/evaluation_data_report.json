@@ -1,0 +1,99 @@
+{
+  "iceberg": {
+    "columns": [
+      "iceberg_id",
+      "timestamp",
+      "latitude",
+      "longitude",
+      "length_nm",
+      "width_nm",
+      "remarks",
+      "source_file",
+      "source_format"
+    ],
+    "dtypes": {
+      "iceberg_id": "str",
+      "timestamp": "str",
+      "latitude": "float64",
+      "longitude": "float64",
+      "length_nm": "float64",
+      "width_nm": "float64",
+      "remarks": "str",
+      "source_file": "str",
+      "source_format": "str"
+    },
+    "missing": {
+      "iceberg_id": 0,
+      "timestamp": 0,
+      "latitude": 0,
+      "longitude": 0,
+      "length_nm": 0,
+      "width_nm": 0,
+      "remarks": 720,
+      "source_file": 0,
+      "source_format": 0
+    },
+    "rows": 2963,
+    "duplicate_rows": 0,
+    "file": "iceberg_processed.csv",
+    "latitude_range": [
+      -74.97,
+      -55.0
+    ],
+    "longitude_range": [
+      -167.67,
+      148.14
+    ],
+    "timestamp_range": [
+      "2022-01-07T00:00:00+00:00",
+      "2023-12-21T00:00:00+00:00"
+    ],
+    "distinct_icebergs": 65,
+    "ground_truth_future": true
+  },
+  "sea_ice": {
+    "columns": [
+      "timestamp",
+      "latitude",
+      "longitude",
+      "sea_ice_concentration",
+      "nodata_flag"
+    ],
+    "dtypes": {
+      "timestamp": "str",
+      "latitude": "float64",
+      "longitude": "float64",
+      "sea_ice_concentration": "float64",
+      "nodata_flag": "int64"
+    },
+    "missing": {
+      "timestamp": 0,
+      "latitude": 0,
+      "longitude": 0,
+      "sea_ice_concentration": 2392521,
+      "nodata_flag": 0
+    },
+    "rows": 5000000,
+    "duplicate_rows": 0,
+    "file": "sea_ice_part_202312.csv",
+    "latitude_range": [
+      -75.0,
+      -55.0
+    ],
+    "longitude_range": [
+      -180.0,
+      179.75
+    ],
+    "timestamp_range": [
+      "2023-02-02T00:00:00+00:00",
+      "2023-12-31T00:00:00+00:00"
+    ],
+    "distinct_timestamps": 55,
+    "concentration_range": [
+      0.0,
+      1.0
+    ],
+    "concentration_unit": "fraction (0..1)",
+    "nodata_rows": 2392521
+  }
+}
