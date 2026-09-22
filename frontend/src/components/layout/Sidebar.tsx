@@ -1,7 +1,6 @@
 import { useApp } from "../../context/AppContext";
 import {
   CogIcon,
-  ExclamationTriangleIcon,
   FlagIcon,
   MapIcon,
   BellAlertIcon,
