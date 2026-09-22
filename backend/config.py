@@ -56,7 +56,12 @@ class Settings(BaseSettings):
 
     # --- CORS ---
     # Comma-separated list of allowed frontend origins.
-    CORS_ORIGINS: str = "http://localhost:5173,http://localhost:3000"
+    CORS_ORIGINS: str = (
+        "http://localhost:5173,"
+        "http://localhost:3000,"
+        "https://antarctic-navigation-dss.vercel.app,"
+        "https://antarcticnavigation-050ruaaa.b4a.run"
+    )
     FRONTEND_URL: str | None = None
 
     # Real-data-only mode for the operational DSS.
