@@ -60,6 +60,7 @@ class Settings(BaseSettings):
         "http://localhost:5173,"
         "http://localhost:3000,"
         "https://antarctic-navigation-dss.vercel.app,"
+        "https://antarctic-navigation.vercel.app,"
         "https://antarcticnavigation-050ruaaa.b4a.run"
     )
     FRONTEND_URL: str | None = None
