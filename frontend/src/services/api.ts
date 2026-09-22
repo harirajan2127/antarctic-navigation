@@ -26,11 +26,10 @@ import type {
   VesselsResponse,
 } from "../types";
 
-// In local dev, VITE_API_BASE_URL is unset and the Vite proxy forwards /api → localhost:8000.
-// In production (Vercel), it falls back to the Back4App backend URL.
+// Production backend on Back4App Containers.
+// Override with VITE_API_BASE_URL env var for local dev (points to localhost:8000 via Vite proxy).
 const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL ??
-  (import.meta.env.DEV ? "" : "https://antarcticnavigation-050ruaaa.b4a.run");
+  import.meta.env.VITE_API_BASE_URL ?? "https://antarcticnavigation-050ruaaa.b4a.run";
 
 const http = axios.create({
   baseURL: `${API_BASE_URL ?? ""}/api`,
